@@ -15,14 +15,9 @@ import sys
 import threading
 import random
 import numpy as np
-#from threading import Event
 from random import seed
-#from random import randint
-#from numpy import isnan
 import ModularStuffBoard_2302_01
 import glob
-#import serial.tools.list_ports
-#import pdb
 
 ######################## SYSTEM INITIATION ######################## 
 print("Hope you performed a reset of all the hardware and the kernel before launching the task !!!")
