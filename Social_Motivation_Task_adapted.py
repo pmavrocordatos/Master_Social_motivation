@@ -343,7 +343,7 @@ class Hardware(threading.Thread): # monitoring and hardware control
                 time.sleep(lat_time)
             
             #Open Social
-            if self.door_open_S: #and not self.door_close_S:
+            if self.door_open_S: 
                 doors1.setDoorState(stimSide, 1) #door  open
                 ongoing_trial = True
                 self.door_open_S = False
